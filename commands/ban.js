@@ -1,10 +1,10 @@
 const discord = require("discord.js");
 
 module.exports = {
-  name: "kick",
+  name: "ban",
   category: "moderation",
-  description: "Kick anyone with one shot xD",
-  usage: "kick <@user> <raeson>",
+  description: "ban anyone with one shot xD",
+  usage: "ban <@user> <raeson>",
   run: (client, message, args) => {
     
        if(!message.member.hasPermission("KICK_MEMBERS")) {
